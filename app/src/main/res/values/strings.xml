@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="material_design_intro">Material Design Intro</string>
+    <string name="toolbar">toolbar</string>
+    <string name="navigation_draw">Navigation Draw</string>
+    <string name="my_image">my_image</string>
+    <string name="john_doe">john_doe</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent_mail">Sent Mail</string>
+    <string name="drafts">Drafts</string>
+    <string name="subheader">SubHeader</string>
+    <string name="all_mail">All Mail</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    <string name="open_drawer">Open Navigation drawer</string>
+    <string name="close_drawer">Close Navigation drawer</string>
+</resources>
