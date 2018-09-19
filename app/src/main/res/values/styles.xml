@@ -23,4 +23,9 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <!-- Text Field -->
+    <style name="CharacterOverflow">
+        <item name="android:textColor">@color/colorTextError</item>
+    </style>
+
 </resources>

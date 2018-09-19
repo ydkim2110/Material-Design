@@ -5,4 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorBackground">#FFFFFF</color>
     <color name="colorItem">#2196F3</color>
+
+    <color name="colorTextAccent">#40C4FF</color>
+    <color name="colorTextError">#FF5252</color>
+
 </resources>

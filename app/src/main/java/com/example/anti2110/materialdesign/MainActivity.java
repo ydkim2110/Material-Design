@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.anti2110.materialdesign.navigationDraw.NavigationDrawActivity;
+import com.example.anti2110.materialdesign.testField.TextFieldActivity;
 import com.example.anti2110.materialdesign.toolbar.ToolbarActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.btn_toolbar).setOnClickListener(this);
         findViewById(R.id.btn_navigation_draw).setOnClickListener(this);
+        findViewById(R.id.btn_text_field).setOnClickListener(this);
 
     }
 
@@ -30,6 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_navigation_draw:
                 intent = new Intent(MainActivity.this, NavigationDrawActivity.class);
+                break;
+            case R.id.btn_text_field:
+                intent = new Intent(MainActivity.this, TextFieldActivity.class);
                 break;
         }
         startActivity(intent);
