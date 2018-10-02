@@ -19,4 +19,22 @@
     <string name="username">username</string>
     <string name="text_field">Text Field</string>
     <string name="password">password</string>
+    <string name="newyork_city">NewYork City</string>
+    <string name="collapsing_toolbar">Collapsing Toolbar</string>
+    <string name="text_1">text 1</string>
+    <string name="test_2">text 2</string>
+    <string name="text_3">text 3</string>
+    <string name="text_4">text 4</string>
+    <string name="text_5">text 5</string>
+    <string name="text_6">text 6</string>
+    <string name="text_7">text 7</string>
+    <string name="swipe_refresh_layout">Swipe Refresh Layout</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="the_time_you_picked_will_be_shown_here">the time you picked will be shown here.</string>
+    <string name="pick_time">PICK TIME</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="the_date_you_picked_will_be_shown_here">the date you picked will be shown here.</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="viewpager_image_slide">ViewPager Image Slide</string>
+    <string name="android_games">Android Games</string>
 </resources>

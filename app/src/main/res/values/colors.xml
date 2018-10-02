@@ -8,5 +8,10 @@
 
     <color name="colorTextAccent">#40C4FF</color>
     <color name="colorTextError">#FF5252</color>
+    <color name="colorLoadRefresh">#FF9800</color>
+    <color name="colorFinishRefresh">#4CAF50</color>
+
+    <color name="colorTimePicker">#009688</color>
+    <color name="colorDatePicker">#F44336</color>
 
 </resources>
