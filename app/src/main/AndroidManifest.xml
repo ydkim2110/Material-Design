@@ -14,7 +14,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -27,7 +26,8 @@
         <activity android:name=".swipeRefreshLayout.SwipeRefreshActivity" />
         <activity android:name=".pickers.TimePickerActivity" />
         <activity android:name=".pickers.DatePickerActivity" />
-        <activity android:name=".viewPager_ImageSlide.ViewPagerImageSlideActivity"></activity>
+        <activity android:name=".viewPager_ImageSlide.ViewPagerImageSlideActivity" />
+        <activity android:name=".selectionControls.SelectionControlsActivity"></activity>
     </application>
 
 </manifest>

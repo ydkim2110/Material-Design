@@ -8,6 +8,7 @@ import com.example.anti2110.materialdesign.collapsingToolbar.CollapsingToolbarAc
 import com.example.anti2110.materialdesign.navigationDraw.NavigationDrawActivity;
 import com.example.anti2110.materialdesign.pickers.DatePickerActivity;
 import com.example.anti2110.materialdesign.pickers.TimePickerActivity;
+import com.example.anti2110.materialdesign.selectionControls.SelectionControlsActivity;
 import com.example.anti2110.materialdesign.swipeRefreshLayout.SwipeRefreshActivity;
 import com.example.anti2110.materialdesign.testField.TextFieldActivity;
 import com.example.anti2110.materialdesign.toolbar.ToolbarActivity;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_time_picker).setOnClickListener(this);
         findViewById(R.id.btn_date_picker).setOnClickListener(this);
         findViewById(R.id.btn_viewPager_imageSlide).setOnClickListener(this);
+        findViewById(R.id.btn_selection_controls).setOnClickListener(this);
 
     }
 
@@ -58,6 +60,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_viewPager_imageSlide:
                 intent = new Intent(MainActivity.this, ViewPagerImageSlideActivity.class);
+                break;
+            case R.id.btn_selection_controls:
+                intent = new Intent(MainActivity.this, SelectionControlsActivity.class);
                 break;
         }
         startActivity(intent);

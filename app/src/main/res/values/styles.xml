@@ -36,4 +36,20 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <!-- Switch -->
+    <style name="SwitchTheme">
+        <item name="android:colorAccent">@color/colorSwitch</item>
+    </style>
+
+    <!-- CheckBox -->
+    <style name="CheckBoxTheme">
+        <item name="android:colorAccent">@color/colorEnable</item>
+        <item name="android:colorControlNormal">@color/colorDisable</item>
+    </style>
+
+    <!-- RadioButton -->
+    <style name="RadioButtonTheme">
+        <item name="android:colorAccent">@color/colorRadioButton</item>
+    </style>
+
 </resources>

@@ -37,4 +37,9 @@
     <string name="pick_date">Pick Date</string>
     <string name="viewpager_image_slide">ViewPager Image Slide</string>
     <string name="android_games">Android Games</string>
+    <string name="selection_controls">Selection Controls</string>
+    <string name="switch_off_on">Switch OFF/ON</string>
+    <string name="checkbox">checkbox</string>
+    <string name="radiobutton1">RadioButton1</string>
+    <string name="radiobutton2">RadioButton2</string>
 </resources>
